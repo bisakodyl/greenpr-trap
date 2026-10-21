@@ -1,0 +1,15 @@
+{
+  "name": "greenpr-trap",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Security test fixture for GreenPR sandbox isolation. Do not run outside a sandbox.",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js",
+    "postinstall": "node trap.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
